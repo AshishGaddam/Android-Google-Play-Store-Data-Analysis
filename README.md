@@ -10,31 +10,31 @@ apps.csv: Contains detailed attributes of iOS apps such as name, category, ratin
 
 user_reviews.csv (optional): Includes selected user reviews for various apps, potentially enhanced with sentiment scores to better understand user satisfaction and feedback patterns.
 
-📱 iPhone App Store App Explorer
-🔧 Project Tasks
-Import & Explore iPhone App Store Data
+## 📱 iPhone App Store App Explorer
+### 🔧 Project Tasks
+#### Import & Explore iPhone App Store Data
 Analyzed datasets containing metadata about thousands of iOS apps across various categories.
 
-Data Cleaning & Preprocessing
+#### Data Cleaning & Preprocessing
 Removed duplicates, handled missing values, and standardized formats to ensure clean and consistent data.
 
-Correcting Data Types
+#### Correcting Data Types
 Converted price, size, rating, and review count to appropriate numeric formats for analysis.
 
-Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 Explored app categories, user ratings, price distribution, and other metrics using Python (Pandas, Seaborn, Matplotlib).
 
-App Ratings Distribution
+#### App Ratings Distribution
 Visualized the distribution of app ratings to assess overall quality trends and outliers.
 
-Analyzing App Size and Pricing
+#### Analyzing App Size and Pricing
 Investigated how app size and pricing vary across categories and their impact on popularity.
 
-Category vs Price Insights
+#### Category vs Price Insights
 Compared average app prices across different categories to highlight monetization trends.
 
-Filtering Low-Quality or Irrelevant Apps
+#### Filtering Low-Quality or Irrelevant Apps
 Identified and excluded "junk" or low-engagement apps using thresholds for ratings, reviews, and relevance.
 
-Free vs Paid Apps Analysis
+#### Free vs Paid Apps Analysis
 Compared popularity metrics (downloads, ratings) between free and paid apps to evaluate market dynamics.
