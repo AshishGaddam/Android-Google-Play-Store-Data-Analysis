@@ -14,17 +14,14 @@ This analysis offers valuable insights for developers, marketers, and stakeholde
 
 ## 📱 
 ### 🔧 Project Tasks
-#### Import & Explore iPhone App Store Data
+#### 1. Import & Explore iPhone App Store Data
 Analyzed datasets containing metadata about thousands of iOS apps across various categories.
 
-#### 1. Data Cleaning & Preprocessing
+#### 2. Data Cleaning & Preprocessing
 Removed duplicates, handled missing values, and standardized formats to ensure clean and consistent data.
 
-#### 2. Correcting Data Types
+#### 3. Correcting Data Types
 Converted price, size, rating, and review count to appropriate numeric formats for analysis.
-
-#### 3. Exploratory Data Analysis (EDA)
-Explored app categories, user ratings, price distribution, and other metrics using Python (Pandas, Seaborn, Matplotlib).
 
 #### 4. Exploring App Categories
 Identified the most common app categories, analyzed their average ratings, pricing strategies, and app count distribution to understand market focus.
@@ -46,3 +43,6 @@ Compared popularity metrics (downloads, ratings) between free and paid apps to e
 
 #### 10. Sentiment Analysis of User Reviews (if review data is available)
 Analyzed review text using sentiment scoring to understand user satisfaction and app perception.
+
+
+
