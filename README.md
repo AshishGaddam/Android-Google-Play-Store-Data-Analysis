@@ -45,4 +45,14 @@ Compared popularity metrics (downloads, ratings) between free and paid apps to e
 Analyzed review text using sentiment scoring to understand user satisfaction and app perception.
 
 
+## Dataset
+
+This project uses two main datasets:
+
+- [apps.csv](data/apps.csv) — Contains app details such as category, rating, size, installs, type, and price.
+- [user_reviews.csv](data/user_reviews.csv) — Contains user reviews pre-processed and tagged with sentiment scores.
+
+If you want to explore the original dataset, you can find it here:  
+[Android App Market Dataset on Kaggle](https://www.kaggle.com/datasets/utshabkumarghosh/android-app-market-on-google-play)
+
 
