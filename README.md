@@ -1,40 +1,48 @@
-# iPhone-App-Store-Data-Analysis
-📱 Mobile applications dominate the digital landscape, offering utility, entertainment, and innovation at our fingertips. The iOS ecosystem, in particular, is known for its high-quality apps and a strong user base willing to pay for value. Given the increasing ease of app development and the potential for profitability, thousands of new iPhone apps are launched regularly.
+# The Android App Market on Google Play – Data Insights
+📱 As mobile apps become easier to develop and increasingly profitable, the Android app market has expanded rapidly. This growth highlights the importance of analyzing app performance, pricing, and user feedback to uncover valuable insights that can support growth and user retention.
 
-In this project, I performed a comprehensive data analysis of the iPhone App Store, examining thousands of apps across various categories to uncover trends, performance indicators, and strategies that could drive user growth, engagement, and retention.
+In this project, I conducted an in-depth analysis of more than 10,000 Android apps available on the Google Play Store, covering various categories and app features. The goal was to identify patterns and trends that can help optimize app development and marketing strategies.
 
-Unlike the Android ecosystem, the Apple App Store offers a more curated and structured environment. The dataset used for this project provides rich information on iOS apps including category, rating, price, size, number of reviews, and more. The goal was to derive actionable insights to inform product and marketing strategies for mobile app development.
+`Dataset Details`:
+The data was collected by scraping the Google Play Store and consists of:
 
-📊 Data Files Used:
-apps.csv: Contains detailed attributes of iOS apps such as name, category, rating, reviews, price, size, and content rating.
+`apps.csv`: Detailed information about each app, including category, rating, size, number of installs, type (free or paid), and price.
 
-user_reviews.csv (optional): Includes selected user reviews for various apps, potentially enhanced with sentiment scores to better understand user satisfaction and feedback patterns.
+`user_reviews.csv`: Contains up to 100 user reviews per app, pre-processed and labeled with sentiment scores to facilitate textual analysis.
 
-## 📱 iPhone App Store App Explorer
+This analysis offers valuable insights for developers, marketers, and stakeholders to better understand trends in the Android app market and make informed decisions.
+
+## 📱 
 ### 🔧 Project Tasks
 #### Import & Explore iPhone App Store Data
 Analyzed datasets containing metadata about thousands of iOS apps across various categories.
 
-#### Data Cleaning & Preprocessing
+#### 1. Data Cleaning & Preprocessing
 Removed duplicates, handled missing values, and standardized formats to ensure clean and consistent data.
 
-#### Correcting Data Types
+#### 2. Correcting Data Types
 Converted price, size, rating, and review count to appropriate numeric formats for analysis.
 
-#### Exploratory Data Analysis (EDA)
+#### 3. Exploratory Data Analysis (EDA)
 Explored app categories, user ratings, price distribution, and other metrics using Python (Pandas, Seaborn, Matplotlib).
 
-#### App Ratings Distribution
+#### 4. Exploring App Categories
+Identified the most common app categories, analyzed their average ratings, pricing strategies, and app count distribution to understand market focus.
+
+#### 5. App Ratings Distribution
 Visualized the distribution of app ratings to assess overall quality trends and outliers.
 
-#### Analyzing App Size and Pricing
+#### 6. Analyzing App Size and Pricing
 Investigated how app size and pricing vary across categories and their impact on popularity.
 
-#### Category vs Price Insights
+#### 7. Category vs Price Insights
 Compared average app prices across different categories to highlight monetization trends.
 
-#### Filtering Low-Quality or Irrelevant Apps
+#### 8. Filtering Low-Quality or Irrelevant Apps
 Identified and excluded "junk" or low-engagement apps using thresholds for ratings, reviews, and relevance.
 
-#### Free vs Paid Apps Analysis
+#### 9. Free vs Paid Apps Analysis
 Compared popularity metrics (downloads, ratings) between free and paid apps to evaluate market dynamics.
+
+#### 10. Sentiment Analysis of User Reviews (if review data is available)
+Analyzed review text using sentiment scoring to understand user satisfaction and app perception.
