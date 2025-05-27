@@ -12,8 +12,7 @@ The data was collected by scraping the Google Play Store and consists of:
 
 This analysis offers valuable insights for developers, marketers, and stakeholders to better understand trends in the Android app market and make informed decisions.
 
-## 📱 
-### 🔧 Project Tasks
+### 📱 Project Tasks
 #### 1. Import & Explore iPhone App Store Data
 Analyzed datasets containing metadata about thousands of iOS apps across various categories.
 
